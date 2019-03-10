@@ -1,1 +1,1 @@
-# hexal-
+# Hexal. Difficulty Level 1
