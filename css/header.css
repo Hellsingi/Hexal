@@ -22,16 +22,17 @@ header{
 header:after{
     background-color: transparent;
     content: "";
-    position: relative;
-    top: 13px;
-    left: 19px;
-    text-align: center;
     width: 0;
     height: 0;
+    position: absolute;
+    top: 63px;
+    left: 51.5%;
+    transform: translateX(-50%) ;
     border-style: solid;
     border-width: 26px 44px 0 44px;
     border-color: #323232 transparent transparent transparent;
 }
+
 
 
 .header__left__bottom__border , .header__right__bottom__border {
@@ -69,7 +70,7 @@ header:after{
     color: #2eb398;
 }
 
-#nav__triangle__p1 {
+.nav__triangle__p1 {
     top: -10px;
     left: 3px;
     position :relative;
@@ -81,7 +82,7 @@ header:after{
 }
 
 
-#nav__triangle__p2 {
+.nav__triangle__p2 {
     top: -62px;
     left: 3px;
     position :relative;
