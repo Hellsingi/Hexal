@@ -1,31 +1,116 @@
-.hexagon{
-    width: 180px;
-    height: 203px;
-    background: red;
-    position: relative;
-    margin: 0 auto;
-    overflow: hidden;
+.portfolio{
+    margin-left: 40px;
 }
-.hexagon:before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 90px solid #fff;
-    border-right: 90px solid #fff;
-    border-bottom: 54px solid transparent;
+.hexagon {
+  height: 207px;
+  width: 180px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
-.hexagon:after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 90px solid #fff;
-    border-right: 90px solid #fff;
-    border-top: 54px solid transparent;
+div.hexagon {
+  background: #323232;
+  position: relative;
+  margin: 0 auto;
+  top: -120px;
+  filter: none;
+  -webkit-filter: none;
+  text-align: center;
 }
+
+
+.first_row {
+    margin-left: 100px;
+  width: 781px;
+  margin: 0 auto;
+  display: grid;
+  grid-column-gap: 1.14em;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.second_row {
+  position: relative;
+  top: -41px;
+  width: 982px;
+  margin: 0 auto;
+  display: grid;
+  grid-column-gap: 1.14em;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.third_row {
+  position: relative;
+  top: -82px;
+  width: 781px;
+  margin: 0 auto 5px auto;
+  display: grid;
+  grid-column-gap: 1.14em;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.line_horizontal {
+  position: relative;
+  width: 410px;
+  height: 1px;
+  background: #e4e9eb;
+  border: none;
+}
+
+.left_top_horizont {
+  right: 260px;
+  top: -67px;
+}
+
+.right_top_horizont {
+  right: -260px;
+  top: -77px;
+}
+
+.line_horizontal_long {
+  position: relative;
+  width: 950px;
+  height: 1px;
+  background: #e4e9eb;
+  border: none;
+}
+
+.long_bottom_line {
+  right: 0px;
+  bottom: -639px;
+}
+
+.line_vertical {
+  position: relative;
+  width: 104px;
+  height: 1px;
+  transform: rotate(90deg);
+  background: #e4e9eb;
+  border: none;
+}
+
+
+.left_top_line {
+    right: 411px;
+    top: 121px
+}
+
+.right_top_line {
+    right: -411px;
+    top: 112px
+}
+
+.left_bottom_line{
+    right: 411px;
+    bottom: 194px;
+}
+
+.right_bottom_line{
+    right: -411px;
+    bottom: 194px;
+}
+
+
+
+

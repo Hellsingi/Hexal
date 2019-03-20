@@ -1,5 +1,6 @@
 @import "header.css";
 @import "portfolio.css";
+@import "contacts.css";
 
 body{
     padding: 0;
@@ -7,6 +8,6 @@ body{
 }
 
 .container{
-    width: 820px;
+    max-width:  820px;
     margin: 0 auto;
 }
