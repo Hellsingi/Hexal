@@ -19,7 +19,7 @@ div.hexagon {
 
 
 .first_row {
-    margin-left: 100px;
+  margin-left: 100px;
   width: 781px;
   margin: 0 auto;
   display: grid;
@@ -60,12 +60,12 @@ div.hexagon {
 
 .left_top_horizont {
   right: 260px;
-  top: -67px;
+  top: -11px;
 }
 
 .right_top_horizont {
   right: -260px;
-  top: -77px;
+  top: -20px;
 }
 
 .line_horizontal_long {

@@ -1,0 +1,61 @@
+.container_info{
+    width: 820px;
+    height: 316px;
+    margin: 0 auto;
+    border: 1px solid #219d84;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.info{
+    width: 100%;
+    height: 340px;
+    background: #2eb398;
+    padding-top: 13px;
+}
+
+.hexagon_designer_photo {
+    height: 207px;
+    width: 180px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin: 56px 10px 0 20px;
+    float: left;
+}
+
+.designer_photo {
+    margin: 0px 20px 0 -103px;
+    padding-left: 21px;
+}
+
+.designer_description {
+    margin: 47px 20px 0 0;
+    float: right;
+    width: 581px;
+}
+  
+h1 {
+    color: #d7fcf5;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    margin: 0 0 5px 0;
+}
+  
+h3 {
+    color: #20816d;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}
+  
+p {
+    color: #c0f2e9;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 9pt;
+    margin-top: 20px;
+    line-height: 1.8;
+    text-align: justify;
+
+}
