@@ -1,4 +1,4 @@
-.container_info{
+.container_info {
     width: 820px;
     height: 316px;
     margin: 0 auto;
@@ -7,7 +7,7 @@
     border-bottom: 0;
 }
 
-.info{
+.info {
     width: 100%;
     height: 340px;
     background: #2eb398;
@@ -57,5 +57,23 @@ p {
     margin-top: 20px;
     line-height: 1.8;
     text-align: justify;
+}
 
+.social_networks {
+    width: 147px;
+    height: 24px;
+    padding: 30px 0 0 435px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+}
+  
+.social_networks * {
+    height: 24px;
+    mix-blend-mode: luminosity;
+    filter: brightness(1.2)
+}
+  
+.social_networks *:hover {
+    mix-blend-mode: normal;
 }
