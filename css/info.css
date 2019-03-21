@@ -41,7 +41,7 @@ h1 {
     margin: 0 0 5px 0;
 }
   
-h3 {
+h2 {
     color: #20816d;
     font-family: 'Maven Pro', sans-serif;
     font-weight: 400;
@@ -57,11 +57,13 @@ p {
     margin-top: 20px;
     line-height: 1.8;
     text-align: justify;
+    overflow: hidden;
 }
 
 .social_networks {
     width: 147px;
     height: 24px;
+    position: relative;
     padding: 30px 0 0 435px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);

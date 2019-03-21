@@ -8,108 +8,144 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav class="nav-bar">
-                <ul class="nav-menu">
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li>
-                        <div class="triangle">
-                            <div class="nav__triangle__p1"></div>
-                            <div class="nav__triangle__p2"></div>
-                        </div>
-                    </li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Get in touch</a></li>
-                </ul>
-            </nav>
-            <!-- <div class="header__left__bottom__border"></div>
+    <div class="wrapper">
+        <div class="content">
+            <header>
+                <div class="container">
+                    <nav class="nav-bar">
+                        <ul class="nav-menu">
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li>
+                                <div class="triangle">
+                                    <div class="nav__triangle__p1"></div>
+                                    <div class="nav__triangle__p2"></div>
+                                </div>
+                            </li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Get in touch</a></li>
+                        </ul>
+                    </nav>
+                    <!-- <div class="header__left__bottom__border"></div>
             <div class="header__right__bottom__border"></div> -->
+                </div>
+            </header>
+
+            <section class="portfolio">
+                <hr class="line_horizontal left_top_horizont">
+                <hr class="line_horizontal right_top_horizont">
+                <hr class="line_horizontal_long long_bottom_line">
+
+                <hr class="line_vertical left_top_line">
+                <hr class="line_vertical right_top_line">
+                <div class="first_row">
+                    <img class="hexagon" src="./assets/images/monster1.png" alt="portfolio 1">
+                    <img class="hexagon" src="./assets/images/monster2.png" alt="portfolio 2">
+                    <img class="hexagon" src="./assets/images/monster3.png" alt="portfolio 3">
+                    <img class="hexagon" src="./assets/images/monster4.png" alt="portfolio 4">
+                </div>
+                <div class="second_row">
+                    <img class="hexagon" src="./assets/images/monster5.png" alt="portfolio 5">
+                    <img class="hexagon" src="./assets/images/monster6.png" alt="portfolio 6">
+                    <img class="hexagon" src="./assets/images/monster7.png" alt="portfolio 7">
+                    <img class="hexagon" src="./assets/images/monster8.png" alt="portfolio 8">
+                    <img class="hexagon" src="./assets/images/monster9.png" alt="portfolio 9">
+
+                </div>
+                <div class="third_row">
+                    <img class="hexagon" src="./assets/images/monster10.png" alt="portfolio 10">
+                    <img class="hexagon" src="./assets/images/monster11.png" alt="portfolio 11">
+                    <img class="hexagon" src="./assets/images/monster12.png" alt="portfolio 12">
+                    <img class="hexagon" src="./assets/images/monster13.png" alt="portfolio 13">
+                </div>
+
+                <hr class="line_vertical left_bottom_line">
+                <hr class="line_vertical right_bottom_line">
+            </section>
+
+            <section class="info">
+                <div class="container_info">
+                    <div class="hexagon_designer_photo">
+                        <img class="designer_photo" src="./assets/images/designer.png" alt="photo designer">
+                    </div>
+                    <div class="designer_description">
+                        <h1>Smith Anderson</h1>
+                        <h2>Illustrator & Character Designer</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor,
+                            nibh at sagittis tristique, enim magna pretium augue,eget consectetur sem dui non urna.
+                            Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis,
+                            ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis.
+                            Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue,
+                            eget consectetur sem dui non urna</p>
+                    </div>
+                    <div class="social_networks">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="./assets/images/social_icon/Facebook.png" alt="Facebook">
+                        </a>
+                        <a href="https://twitter.com/" target="_blank">
+                            <img src="./assets/images/social_icon/Twitter.png" alt="Twitter">
+                        </a>
+                        <a href="https://plus.google.com/" target="_blank">
+                            <img src="./assets/images/social_icon/Google.png" alt="Google">
+                        </a>
+                        <a href="https://www.pinterest.com/" target="_blank">
+                            <img src="./assets/images/social_icon/Pinterest.png" alt="Pinterest">
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            <img src="./assets/images/social_icon/Linkedin.png" alt="Linkedin">
+                        </a>
+                        <a href="https://dribbble.com/" target="_blank">
+                            <img src="./assets/images/social_icon/Dribbble.png" alt="Dribbble">
+                        </a>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="contacts">
+                <div class="contacts_container">
+                    <div class="form_cointainer">
+                        <h3>Get In Touch</h3>
+                        <h4>In order to get in touch use the contact form below:</h4>
+                        <form action="post" name="form" onsubmit="alert('Message sent!')">
+                            <input type="text" placeholder="Name (Required)" required>
+                            <input type="text" placeholder="Email (Required)" required>
+                            <input type="text" placeholder="Subject">
+                            <textarea form="form" name="form1" id="form_message"
+                                placeholder="Write your message here..."></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+
+                    </div>
+                    <p class="form-description"><span>Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae,
+                        viverra
+                        nibh.
+                        Fusce vitae aliquam tellus. Proin sit amet volutpat libero.
+                        Nulla sed nunc et tortor luctus faucibus morbi vitae. </p>
+                    <ul class="contacts_links">
+                        <li>
+                            <a href="#"><img src="./assets/images/location.png" alt="location"> Elm St. 14/05 Lost
+                                City</a>
+                        </li>
+                        <li>
+                            <a href="tel:+35283318635" target="_blank"><img src="./assets/images/phone.png" alt="phone">
+                                +
+                                3528
+                                331 86 35</a></li>
+                        <li>
+                            <a href="mailto:info@hexalcorp.com" target="_blank"><img src="./assets/images/mail.png"
+                                    alt="mail">info@hexalcorp.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
-    </header>
-
-    <section class="portfolio">
-        <hr class="line_horizontal left_top_horizont">
-        <hr class="line_horizontal right_top_horizont">
-        <hr class="line_horizontal_long long_bottom_line">
-
-        <hr class="line_vertical left_top_line">
-        <hr class="line_vertical right_top_line">
-        <div class="first_row">
-            <img class="hexagon" src="./assets/images/monster1.png" alt="portfolio 1">
-            <img class="hexagon" src="./assets/images/monster2.png" alt="portfolio 2">
-            <img class="hexagon" src="./assets/images/monster3.png" alt="portfolio 3">
-            <img class="hexagon" src="./assets/images/monster4.png" alt="portfolio 4">
-        </div>
-        <div class="second_row">
-            <img class="hexagon" src="./assets/images/monster5.png" alt="portfolio 5">
-            <img class="hexagon" src="./assets/images/monster6.png" alt="portfolio 6">
-            <img class="hexagon" src="./assets/images/monster7.png" alt="portfolio 7">
-            <img class="hexagon" src="./assets/images/monster8.png" alt="portfolio 8">
-            <img class="hexagon" src="./assets/images/monster9.png" alt="portfolio 9">
-
-        </div>
-        <div class="third_row">
-            <img class="hexagon" src="./assets/images/monster10.png" alt="portfolio 10">
-            <img class="hexagon" src="./assets/images/monster11.png" alt="portfolio 11">
-            <img class="hexagon" src="./assets/images/monster12.png" alt="portfolio 12">
-            <img class="hexagon" src="./assets/images/monster13.png" alt="portfolio 13">
-        </div>
-
-        <hr class="line_vertical left_bottom_line">
-        <hr class="line_vertical right_bottom_line">
-    </section>
-
-    <section class="info">
-        <div class="container_info">
-            <div class="hexagon_designer_photo">
-                <img class="designer_photo" src="./assets/images/designer.png" alt="photo designer">
+        <footer>
+            <div class="container_footer">
+                <p>© Copyright 2013 by PSDchat</p>
             </div>
-            <div class="designer_description">
-                <h1>Smith Anderson</h1>
-                <h3>Illustrator & Character Designer</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor,
-                    nibh at sagittis tristique, enim magna pretium augue,eget consectetur sem dui non urna.
-                    Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis,
-                    ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis.
-                    Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue,
-                    eget consectetur sem dui non urna</p>
-            </div>
-            <div class="social_networks">
-                <a href="https://www.facebook.com/" target="_blank">
-                    <img src="./assets/images/social_icon/Facebook.png" alt="Facebook">
-                </a>
-                <a href="https://twitter.com//" target="_blank">
-                    <img src="./assets/images/social_icon/Twitter.png" alt="Twitter">
-                </a>
-                <a href="https://plus.google.com/discover" target="_blank">
-                    <img src="./assets/images/social_icon/Google.png" alt="Google">
-                </a>
-                <a href="hhttps://www.pinterest.com/" target="_blank">
-                    <img src="./assets/images/social_icon/Pinterest.png" alt="Pinterest">
-                </a>
-                <a href="https://www.linkedin.com/" target="_blank">
-                    <img src="./assets/images/social_icon/Linkedin.png" alt="Linkedin">
-                </a>
-                <a href="https://dribbble.com/" target="_blank">
-                    <img src="./assets/images/social_icon/Dribbble.png" alt="Dribbble">
-                </a>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="contacts">
-        <div class="container">3333
-            <input type="text">
-        </div>
-    </section>
-
-    <footer>
-        Foooter
-    </footer>
-
+        </footer>
+    </div>
 </body>
 
 </html>
