@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Lato";
+  src: url('/assets/fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url('/assets/fonts/Lato/Lato-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url('/assets/fonts/Maven/MavenPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url('/assets/fonts/Maven/MavenPro-Bold.ttf');
+  font-weight: bold;
+}
