@@ -1,2 +1,2 @@
-# Hexal. Difficulty Level 1
+# Hexal. Difficulty Level 
 # link: https://hellsingi.github.io/Hexal/
